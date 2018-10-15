@@ -1,0 +1,109 @@
+body{
+	margin: 0;
+}
+
+
+/* MENUS */
+
+	/* MenuLook */
+	#menuLook.active{
+		color: #3ab4ff;
+	}
+	#menuLook:hover{
+		transition: 0.3s;
+		color: #3ab4ff;
+	}
+	#menuLook{
+		color: #0f7abc;
+	}
+	/* MenuLook */
+
+	/*Menu Feminino */
+	#menuFem:hover{
+		transition: 0.3s;
+		color: #3ab4ff;
+	}
+	/* Menu Feminino */
+
+ 	/* Menu Masculino */
+	#menuMasc:hover{
+		transition: 0.3s;
+		color: #3ab4ff;
+	}
+	/* Menu Masculino */
+
+/* MENUS */
+
+
+/* CARDS */
+
+	#titlePromo.display-4{
+		margin-bottom: 0;
+		margin-top: 1vh;
+	}
+
+	/* Main Cards */
+		#mainCard1.border-0:hover{
+			border: 2px;
+		}
+	/* Main Cards */
+
+/* CARDS */
+
+
+
+
+/* Titulo "Loja" */
+
+	#linkIndex{
+		text-decoration: none;
+		color: black;
+	}
+	#mainBrand.container-fluid{
+		padding: 1vh;
+	}
+
+ /* Titulo "Loja" */
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.imgcima{
+    max-width: 100%;
+    margin: auto;
+}
+
+.imgcima::after{
+    z-index: 2;
+    pointer-events: none;
+    display: block;
+    position: relative;
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(0,0,0,0.1) , rgba(0,0,0,0.6));
+    margin-top: -40vh;
+	height: 100%;
+	width: 100%;
+	content: '';
+}
+.rounded{
+    border-radius: 20px !important;
+}
+#filtroCarouselBottom{
+    z-index: 5;
+    bottom: 3%;
+    right: 12%;
+    background-color: #222121;
+    border-color: #222121;
+}
+#filtroCarouselTop{
+    z-index: 5;
+    top: 3%;
+    right: 12%;
+    background-color: #222121;
+    border-color: #222121;
+}
+.selecionada{
+    border: 2px solid #3ccd3e;
+}
